@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tail Log</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.js" integrity="sha512-luMnTJZ7oEchNDZAtQhgjomP1eZefnl82ruTH/3Oj/Yu5qYtwL7+dVRccACS/Snp1lFXq188XFipHKYE75IaQQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <pre id="log"></pre>
+  <script>
+  const socket = io();
+  const el = document.getElementById('log');
+
+  socket.on('log:init', (lines) => {
+    const arr = (lines || '').split(/\r?\n/).filter(l => l.trim() !== '');
+    el.textContent = arr.slice(-10).join('\n');    // exactly 10
+    el.scrollTop = el.scrollHeight;
+  });
+
+  socket.on('log:append', (line) => {
+    if (!line || !line.trim()) return;             // ignore blanks
+    const current = el.textContent ? (el.textContent + '\n' + line) : line;
+    const arr = current.split('\n').filter(l => l.trim() !== '');
+    el.textContent = arr.slice(-10).join('\n');    // roll window to last 10
+    el.scrollTop = el.scrollHeight;
+  });
+
+  socket.on('log:error', (msg) => {
+    console.error('[log:error]', msg);
+  });
+  </script>
+</body>
+</html>

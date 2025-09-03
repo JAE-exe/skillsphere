@@ -1,0 +1,105 @@
+1. What is the purpose of using sample text?
+
+Sample text is used to demonstrate layout, design, or functionality before the final content is ready. It helps in testing readability, formatting, and user experience.
+
+2. What is the most common type of sample text?
+
+“Lorem Ipsum” is the most commonly used form of sample text. Though it’s not in English, it has become a standard placeholder in the design and publishing industries.
+
+3. Can I create my own sample text?
+
+Yes, you can create your own sample text. Many designers and developers prefer to use custom English sentences to closely mimic the final content.
+
+4. Why is “The quick brown fox jumps over the lazy dog” used as sample text?
+
+This sentence is famous because it includes all 26 letters of the English alphabet, making it ideal for testing fonts and layouts.
+
+5. When should I replace sample text with real content?
+
+Sample text should be replaced as soon as the actual content is available to ensure that the final design or layout works as expected with the real text.
+hello
+world
+bruhh
+whatt
+is 
+this
+pls 
+work
+well
+
+hola
+amigo
+
+kaise
+ho 
+
+thik 
+
+bohot 
+
+a
+be
+can
+demonstrate
+ensure
+famous
+well
+demonstrate
+famous
+ensure  
+famous
+quick
+hello
+whatup
+ggs
+demonstrate
+famous
+ensure  
+famous
+quick
+hello
+whatup
+ggs
+
+demonstrate
+famous
+ensure  
+famous
+quick
+hello
+whatup
+ggs
+
+hello
+wise
+
+hi
+
+helo
+
+
+hiiiiiiii
+
+kkkkkkkkkkkkkkk
+
+llkkklj
+
+jhvhjvhvh
+
+hghyjhiyyk
+
+1
+
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+11
+12
+13
